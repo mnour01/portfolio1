@@ -23,7 +23,9 @@ export default function GlassHeader() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
-          {["experience", "skills", "projects", "awards", "education"].map(
+          {["Expériences", "Compétences", 
+          // "projects", "awards", 
+          "Etudes"].map(
             (item, index) => (
               <motion.a
                 key={item}
@@ -34,11 +36,11 @@ export default function GlassHeader() {
                 transition={{ duration: 0.2, delay: index * 0.1 }}
                 whileHover={{ y: -2 }}
               >
-                {item === "experience" && "💼 "}
-                {item === "skills" && "🛠️ "}
-                {item === "projects" && "🚀 "}
-                {item === "awards" && "🏆 "}
-                {item === "education" && "🎓 "}
+                {item === "Expériences" && "💼 "}
+                {item === "Compétences" && "🛠️ "}
+                {/* {item === "projects" && "🚀 "}
+                {item === "awards" && "🏆 "} */}
+                {item === "Etudes" && "🎓 "}
                 {item.charAt(0).toUpperCase() + item.slice(1)}
               </motion.a>
             )
@@ -71,7 +73,9 @@ export default function GlassHeader() {
             transition={{ duration: 0.3 }}
           >
             <nav className="flex flex-col space-y-4 text-sm font-medium">
-              {["experience", "skills", "projects", "awards", "education"].map(
+              {["Expériences", 
+              // "Compétences", "projects",
+               "awards", "Etudes"].map(
                 (item, index) => (
                   <motion.a
                     key={item}
@@ -82,11 +86,11 @@ export default function GlassHeader() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.2, delay: index * 0.1 }}
                   >
-                    {item === "experience" && "💼 "}
-                    {item === "skills" && "🛠️ "}
-                    {item === "projects" && "🚀 "}
-                    {item === "awards" && "🏆 "}
-                    {item === "education" && "🎓 "}
+                    {item === "Expériences" && "💼 "}
+                    {item === "Compétences" && "🛠️ "}
+                    {/* {item === "projects" && "🚀 "}
+                    {item === "awards" && "🏆 "} */}
+                    {item === "Etudes" && "🎓 "}
                     {item.charAt(0).toUpperCase() + item.slice(1)}
                   </motion.a>
                 )

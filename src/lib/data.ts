@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Mehdi Nour",
   location: "Paris, France",
   email: "nour.mehdi@yahoo.com",
-  github: "https://github.com/mnour01",
+  // github: "https://github.com/mnour01",
   linkedin: "https://www.linkedin.com/in/nour-mehdi/",
 };
 
@@ -27,6 +27,7 @@ export const workExperience = [
       "●	Proposition d’architectures et de solutions techniques robustes, adaptées aux enjeux métiers, en tant que référent technique et garant des bonnes pratiques au sein de l’équipe BI.",
     ],
   },
+  
   {
     company: "EDF",
     location: "Colombes, France",
@@ -61,76 +62,134 @@ export const workExperience = [
     ],
   },
 ];
+
+
+
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
+    "R",
+    // "(dplyr, data.table, ggplot2, plotly, leaflet, shiny)",
     "Python",
-    "C++",
-    "Java",
-    "Solidity",
+    // "(pandas, numpy, ploty, scikit-learn, xgboost, prophet, fastapi, psycopg2, streamlit, dash)",
+    "Pyspark",
+    "SQL",
   ],
-  frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
+  DataScience: [
+    "Machine Learning",
+    "Time Series Analysis",
+    "Deep Learning",
+    "Natural Language Processing",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
-  toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+  Datavis: [
+    "Tableau",
+    "Power BI",
+    "Superset",
+    "R Shiny",
+    "Dash",
+    "Streamlit",
+    "SAP",
+  ],
+
+  databaseAndStorage: [
+    "PostgreSQL", 
+    "Oracle",
+    "Hive",
+    "Parquet",
+    "Hbase",
+  ],
+  cloudAndDevOps: [
+    "S3",
+    "Azure Databricks",
+    "Git",
+    "CI/CD",
+    "Docker",
+    "Kubernetes",
+  ],
+  IAGEN: [
+    "Intégration d'agents IA",
+    "LangChain",
+    "RAG",
+    "Hugging Face (Ollama, OpenAI, Mistral, Claude)",
+  ],
+  SoftSkills: [
+    "Pilotage de projets data",
+    "recueil des besoins",
+    "cadrage",
+    "mise en œuvre",
+    "Méthodologies Agile",
+    "Supervision et traçabilité",
+    "Communication transverse",  
   ],
 };
 
-export const projects = [
+export const education = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
-    description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+    institution: "Université de Clermont-Auvergne, Faculté des sciences Blaise Pascal",
+    location: "Clermont-Ferrand, France",
+    degree: "Master 2 en Analyses statistiques, Data science et Big Data",
+    period: "Sep 2016 - Sep 2018",
+    achievements: [
+      "Probabilté et Statistiques",
+      "G20 student Prcessus stochastiques",
+      "Big Data (Map Reduce et Spark)",
+      "Machine Learning et Deep Learning",
+      "R, SAS et Python",
+      "Bases de données (SQL, NoSQL)",
     ],
   },
   {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
-    description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+    institution: "Université Hassan II, Faculté des sciences de Casablanca",
+    location: "Casablanca, Maroc",
+    degree: "Licences en Mathématiques appliquées",
+    period: "Sep 2012 - Sep 2016",
+    achievements: [
+      "Probabilités et économetrie",
+      "Equations différentielles et systèmes dynamiques",
+      "Analyse Statistique de Données, Statistiques Inférentielles",
+      "Algèbre, Intégration et Topologie",
+      "C, C++, R",
     ],
   },
 ];
 
-export const awards = [
-  {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "International",
-    position: "Second Place",
-  },
-  {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-];
+// export const projects = [
+//   {
+//     title: "Net Zero Carbon Emissions",
+//     github: "https://github.com/rishikesh2003/Prodigi",
+//     description: [
+//       "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
+//       "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
+//       "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
+//       "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
+//       "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+//     ],
+//   },
+//   {
+//     title: "Mental Aarog",
+//     github: "https://github.com/rishikesh2003/mental-aarog",
+//     description: [
+//       "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
+//       "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
+//       "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
+//       "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
+//       "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+//     ],
+//   },
+// ];
+
+// export const awards = [
+//   {
+//     name: "IEEE YESIST12 Hackathon",
+//     issuer: "IEEE",
+//     date: "Sep 2022",
+//     type: "International",
+//     position: "Second Place",
+//   },
+//   {
+//     name: "Prodigi Cognizant Hackathon",
+//     issuer: "Cognizant",
+//     date: "Feb 2023",
+//     type: "National",
+//     position: "Second Runner-up",
+//   },
+// ];

@@ -74,7 +74,7 @@ export default function HeroSection() {
                 ✉️ {personalInfo.email}
               </motion.a>
 
-              <motion.a
+              {/* <motion.a
                 href={personalInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -84,7 +84,7 @@ export default function HeroSection() {
               >
                 <Github className="h-4 w-4 mr-2" />
                 🌟 GitHub
-              </motion.a>
+              </motion.a> */}
 
               <motion.a
                 href={personalInfo.linkedin}
@@ -123,7 +123,7 @@ export default function HeroSection() {
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
               🎯 Data Scientist orienté valeur métier, je conçois des solutions data robustes, claires et activables.<br></br>
-              ✅ Solide expertise en Python, R, SQL, Spark, Azure, Power BI.<br></br>
+              ✅ Solide expertise en Python, R, SQL, Spark, Azure, Tableau, Power BI.<br></br>
               🤖 Compétences en machine learning et en intelligence artificielle générative.<br></br>
               🧩 À l’aise avec la vulgarisation, la communication interdisciplinaire et le pilotage de projets.<br></br>
               📊 Mon approche : allier rigueur technique, sens business et impact opérationnel.<br></br>

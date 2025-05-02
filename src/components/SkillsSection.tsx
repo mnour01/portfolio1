@@ -53,7 +53,7 @@ export default function SkillsSection() {
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🛠️ Skills
+            🛠️ Compétences
           </h2>
         </MotionWrapper>
 
@@ -67,7 +67,7 @@ export default function SkillsSection() {
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">💻</span> Programming Languages
+                <span className="mr-2 text-xl">💻</span> Langages de programmation
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                 {skills.programmingLanguages.map((skill, index) => (
@@ -80,10 +80,10 @@ export default function SkillsSection() {
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">🎨</span> Frontend Development
+                <span className="mr-2 text-xl">🤖</span> Data Science
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                {skills.frontendDevelopment.map((skill, index) => (
+                {skills.DataScience.map((skill, index) => (
                   <SkillTag key={skill} skill={skill} index={index} />
                 ))}
               </div>
@@ -93,10 +93,10 @@ export default function SkillsSection() {
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">⚙️</span> Backend Development
+                <span className="mr-2 text-xl">📈</span> Data Visualisation
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                {skills.backendDevelopment.map((skill, index) => (
+                {skills.Datavis.map((skill, index) => (
                   <SkillTag key={skill} skill={skill} index={index} />
                 ))}
               </div>
@@ -106,7 +106,7 @@ export default function SkillsSection() {
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">🗄️</span> Database & Storage
+                <span className="mr-2 text-xl">💾</span> Bases de données
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                 {skills.databaseAndStorage.map((skill, index) => (
@@ -132,15 +132,31 @@ export default function SkillsSection() {
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">🧰</span> Tools & Services
+                <span className="mr-2 text-xl">🧠</span> IA Génerative
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                {skills.toolsAndServices.map((skill, index) => (
+                {skills.IAGEN.map((skill, index) => (
                   <SkillTag key={skill} skill={skill} index={index} />
                 ))}
               </div>
             </GlassCard>
           </motion.div>
+
+          <motion.div variants={skillCategoryVariants}>
+            <GlassCard className="p-4">
+              <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
+                <span className="mr-2 text-xl">🧠</span> Soft Skills
+              </h3>
+              <div className="flex flex-wrap gap-2 justify-center md:justify-start">
+                {skills.SoftSkills.map((skill, index) => (
+                  <SkillTag key={skill} skill={skill} index={index} />
+                ))}
+              </div>
+            </GlassCard>
+          </motion.div>
+
+
+
         </motion.div>
       </div>
     </section>
