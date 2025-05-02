@@ -1,60 +1,63 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Mehdi Nour",
+  location: "Paris, France",
+  email: "nour.mehdi@yahoo.com",
+  github: "https://github.com/mnour01",
+  linkedin: "https://www.linkedin.com/in/nour-mehdi/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
-    achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+    company: "ENI Plénitude",
+    location: "Levallois, France",
+    position: "Lead Data",
+    period: "Oct 2023 - Aujourd'hui",
+    contexte: [
+      "Dans un contexte d’amélioration continue des processus métiers, la mission vise à optimiser le parcours client B2B à travers l’automatisation, la supervision des traitements de données et la modernisation de l’infrastructure technique.",
+      "Le rôle inclut également le pilotage des projets data en collaboration avec les équipes métier, de la définition des besoins jusqu’à la mise en œuvre des solutions, ainsi que la responsabilité de Tech Lead et référent technique au sein de l’équipe Business Intelligence.",
+      "",
+    ],
+    role: [
+      "●	Analyse approfondie du processus d’activation des contrats B2B afin d’identifier les points de blocage et réduire les délais de traitement.",
+      "●	Automatisation de l’intégration des nouveaux contrats dans le CRM (SAP) afin de réduire les coûts opérationnels et améliorer la productivité.",
+      "●	Développement d’un modèle de prévision des volumes d’appels clients en utilisant la bibliothèque Prophet de Python pour optimiser la gestion budgétaire des prestataires.",
+      "●	Migration des traitements automatisés vers la plateforme cloud Azure Databriks dans une logique d’industrialisation et de scalabilité.",
+      "●	Mise en place d’une solution de supervision des traitements automatisés assurant la qualité et la fiabilité des données transmises aux équipes métiers.",
+      "●	Accompagnement des métiers dans la formalisation de leurs besoins, le cadrage des projets et la conduite du changement pour garantir l’adoption des solutions déployées.",
+      "●	Proposition d’architectures et de solutions techniques robustes, adaptées aux enjeux métiers, en tant que référent technique et garant des bonnes pratiques au sein de l’équipe BI.",
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
-    achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+    company: "EDF",
+    location: "Colombes, France",
+    position: "Data scientist",
+    period: "Oct 2021 - Août 2023",
+    contexte: [
+      "Renforcer la connaissance client dans le marché d’affaires EDF via la production de bases de données stratégiques, la modélisation prédictive et le développement d’applications data.",
     ],
-  },
-  {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
-    achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
-    ],
-  },
-];
+    role: [
+      "●	Conception et mise à jour d’un datamart centralisé à partir de sources multiples (Hive, Oracle), servant de référentiel pour l’analyse des données clients PRO.",
+      "●	Élaboration d’un modèle de prédiction du churn sous Python, basé sur Random Forest, intégrant des modules d’interprétabilité pour répondre aux exigences de transparence des modèles IA.",
+      "●	Création d’applications interactives avec R Shiny pour cartographier les projets EDF, visualiser les indicateurs de déploiement Linky/Gazpar et enrichir l’expérience utilisateur via des contenus dynamiques.",
+      "●	Suivi de l’utilisation des applications grâce à l’intégration de l’outil Matomo, via des scripts adaptés aux environnements Shiny et Dash.",
+      "●	Intégration de la librairie Eurybia pour la supervision et le monitoring des modèles de machine learning en production.",
 
-export const education = [
+    ],
+  },
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
-    achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+    company: "Bouygues Télécom",
+    location: "Meudon, France",
+    position: "Data Analyst",
+    period: "Oct 2023 - Aujourd'hui",
+    contexte: [
+      "Optimisation de la qualité de service des accès fixes pour améliorer la performance réseau et anticiper les incidents techniques rencontrés par les clients.",
+    ],
+    role: [
+      "●	Conception d’un KPI de qualité réseau (note de continuité xDSL), permettant d’identifier les coupures de service avec une granularité à la seconde, et de détecter les causes techniques en croisant plusieurs sources.",
+      "●	Développement d’algorithmes d’aide à la décision pour optimiser le débit des lignes xDSL stables (analyse de données itérative, recommandations de modifications techniques).",
+      "●	Mise en place de pipelines de données automatisés en PySpark pour alimenter des tableaux de bord de supervision, avec intégration des alertes en cas de dégradation des KPI.",
+      "●	Suivi des effets des évolutions techniques sur les KPI (firmwares FTTH, équipements) à travers une chaîne de traitement industrialisée.",
+      "●	Validation de la plateforme Big Data (Cloudera) et intégration de nouveaux modules de traitement en assurant la cohérence avec les bonnes pratiques de gouvernance des données.",
     ],
   },
 ];
@@ -129,40 +132,5 @@ export const awards = [
     date: "Feb 2023",
     type: "National",
     position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
   },
 ];
