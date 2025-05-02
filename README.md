@@ -2,7 +2,7 @@
 
 A sleek, responsive portfolio website built with **Astro**, **React**, and **Tailwind CSS**, featuring modern animations and stunning glassmorphism effects.
 
-![Portfolio Screenshot](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384)
+<!-- ![Portfolio Screenshot](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384) -->
 
 ## ✨ Features
 
@@ -16,7 +16,7 @@ A sleek, responsive portfolio website built with **Astro**, **React**, and **Tai
 
 ## 🚀 Demo
 
-👉 [Live Demo](https://rishilol.vercel.app/)
+<!-- 👉 [Live Demo](https://rishilol.vercel.app/) -->
 
 ## 🛠 Getting Started
 
